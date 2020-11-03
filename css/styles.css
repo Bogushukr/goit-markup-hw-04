@@ -89,7 +89,7 @@ img {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -384,6 +384,15 @@ img {
   margin-top: 0;
   margin-bottom: 0;
   list-style: none;
+  padding-left: 0;
+}
+
+.item-features {
+  margin-right: 30px;
+}
+
+.item-features:nth-child(4n) {
+  margin-right: 0;
 }
 
 .icon-one::before {
@@ -455,7 +464,7 @@ img {
   line-height: 171%;
   letter-spacing: 0.03em;
   color: var(--main-text-cl);
-  padding: 0px 30px 0px 0px;
+  padding: 0px 0px 0px 0px;
   margin: 0;
 }
 
@@ -468,8 +477,8 @@ img {
   text-transform: uppercase;
   color: var(--black-text);
 
-  padding-bottom: 10px;
-  margin-bottom: 0;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
   margin-top: 0;
 }
 
