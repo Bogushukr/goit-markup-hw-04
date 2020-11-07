@@ -461,7 +461,7 @@ img {
   font-family: Roboto;
   font-weight: normal;
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-cl);
   padding: 0px 0px 0px 0px;
