@@ -57,6 +57,7 @@
   --wight-text: #ffffff;
   --cellar-fon: #2f303a;
   --team-fon: #f5f4fa;
+  --icon-cl: #afb1b8;
 }
 
 html {
@@ -537,8 +538,8 @@ img {
   color: var(--black-text);
 
   display: block;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team {
@@ -560,13 +561,51 @@ img {
   margin-top: 0;
   margin-bottom: 0;
   text-align: center;
-  padding-bottom: 28px;
+  margin-bottom: 16px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: center;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+.social-icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--wight-text);
+  border-radius: 50%;
+}
+
+.social-icon-link:hover .social-icon-svg,
+.social-icon-link:focus .social-icon-svg {
+  fill: var(--wight-text);
+}
+
+.social-icon-link:hover,
+.social-icon-link:focus {
+  background-color: var(--link-text-cl);
+}
+
+.social-icon-svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--icon-cl);
 }
 
 .conainer-time-item {
   width: 270px;
-  height: 368px;
+  height: 428px;
   margin-right: 30px;
+  padding-bottom: 30px;
   background-color: var(--wight-text);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -584,16 +623,42 @@ img {
 
 .container-partners {
   display: inline-flex;
-  margin-top: 0;
+  margin: 0;
   list-style: none;
-  margin-bottom: 0;
-}
-.container-partners img {
-  margin-right: 30px;
+  padding-left: 0;
 }
 
-.container-partners img:nth-child(3n) {
-  margin-right: 0;
+.partners-icon-item {
+}
+.partners-icon-svg {
+  width: 170px;
+  height: 90px;
+  fill: var(--icon-cl);
+}
+
+.partners-icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  background-color: var(--wight-text);
+  border-radius: 4px;
+  border: 1px solid var(--icon-cl);
+}
+
+.partners-icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.partners-icon-link:hover .partners-icon-svg,
+.partners-icon-link:focus .partners-icon-svg {
+  fill: var(--link-text-cl);
+}
+
+.partners-icon-link:hover,
+.partners-icon-link:focus {
+  background-color: var(--wight-text);
 }
 
 .cellar {
