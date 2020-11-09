@@ -218,7 +218,12 @@ img {
   margin-left: auto;
   margin-right: auto; */
 
-  background-image: url(../images/application-team.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/application-team.jpg);
   background-position: center;
   background-repeat: no-repeat;
   object-fit: cover;
