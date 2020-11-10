@@ -295,6 +295,10 @@ img {
   margin-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
+
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 
 .btn-position {
@@ -349,6 +353,12 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.link-element {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 
 .container-fillihg .link {
@@ -551,7 +561,7 @@ img {
 
 .section-team {
   width: 1600px;
-  height: 648px;
+  height: 708px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 0px;
@@ -648,6 +658,7 @@ img {
 .partners-section {
   padding-top: 94px;
   padding-bottom: 94px;
+  height: 370px;
 }
 
 .container-partners {
